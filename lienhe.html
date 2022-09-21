@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liên hệ - Cửa hàng A&H</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script src="js/lienhe.js"></script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-lienhe">
+            <div class="lienhe-header">Liên hệ</div>
+            <div class="lienhe-info">
+                <div class="info-left">
+                    <p>
+                        <b>Địa chỉ:</b> 185-187 Hoàng Văn Thụ, phường 8, Phú Nhuận, TPHCM<br /><br />
+                        <b>Telephone:</b> 088 950 6570<br /><br />
+                        <b>E-mail:</b> lequocanbuu2001@gmail.com<br /><br />
+                     
+                    </p>
+                </div>
+                <div class="info-right">
+                    <iframe width="100%" height="450" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=185%20Ho%C3%A0ng%20V%C4%83n%20Th%E1%BB%A5+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Embed
+                            Google Map
+                        </a>
+                    </iframe>
+                    <br />
+                </div>
+            </div>
+            <div class="lienhe-info">
+
+           
+                <div class="thongtinnhom">
+                    <p style="font-size: 22px; color: rgb(22, 21, 21)">Thông Tin Thành Viên: </p>
+                    <hr />
+                    <table>
+                        <tr>
+                            <th>Họ tên</th>
+                            <th>MSSV</th>
+                            <th>Giới tính</th>
+                            <th>Lớp</th>
+                        
+                        </tr>
+                        <script>
+                            var thongtin = [
+                                ["Lê Quốc An", "1911040017", "Nam", "K13DCPM01"],
+                                ["Nguyễn Phúc Hậu", "1911040016", "Nam", "K13DCPM01"]
+                               
+                            ]
+                            for (var i = 0; i < thongtin.length; i++) {
+                                document.write(
+                                    `
+                                    <tr>
+                                        <td>` +
+                                    thongtin[i][0] + `</td>
+                                        <td>` +
+                                    thongtin[i][1] + `</td>
+                                        <td>` +
+                                    thongtin[i][2] + `</td>
+                                        <td>` +
+                                    thongtin[i][3] + `</td>
+                                       
+                                    </tr>
+                                `
+                                )
+                            }
+                        </script>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        addContainTaiKhoan();
+    </script>
+
+    <div class="footer">
+        <script>
+            addFooter();
+        </script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>

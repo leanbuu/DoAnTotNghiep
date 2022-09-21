@@ -1,0 +1,30 @@
+
+
+/* ============= Footer ============= */
+.footer {
+	position: relative;
+	/* height: 40px; */
+	width: 100%;
+	background: rgb(18, 212, 66);
+}
+
+.copy-right {
+	/* position: absolute; */
+	/* bottom: 0; */
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	background-color:#0a6e20;
+}
+
+.copy-right a {
+	color: #fff;
+	transition: .2s ease;
+}
+
+.copy-right a:hover {
+	color: #fff;
+}
+
