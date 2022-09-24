@@ -141,7 +141,7 @@ function themVaoGioHang(masp, tensp) {
     capNhat_ThongTin_CurrentUser(); // cập nhật giỏ hàng
 }
 
-// ============================== TÀI KHOẢN ============================
+// ============================== TÀI KHOẢN 
 
 // Hàm get set cho người dùng hiện tại đã đăng nhập
 function getCurrentUser() {
@@ -218,7 +218,7 @@ function logIn(form) {
     return false;
 }
 
-function signUp(form) {
+function Up(form) {
     var ho = form.ho.value;
     var ten = form.ten.value;
     var email = form.email.value;
@@ -616,7 +616,7 @@ function addContainTaiKhoan() {
 
             <div class="tab-content">
                 <div id="login">
-                    <h1>Chào mừng bạn trở lại!</h1>
+                    <div class="login1">Chào mừng bạn trở lại!</div>
 
                     <form onsubmit="return logIn(this);">
 
@@ -694,10 +694,6 @@ function addContainTaiKhoan() {
         </div> <!-- /taikhoan -->
     </div>`);
 }
-// Thêm plc (phần giới thiệu trước footer)
-
-
-// https://stackoverflow.com/a/2450976/11898496
 function shuffleArray(array) {
     let currentIndex = array.length,  randomIndex;
 

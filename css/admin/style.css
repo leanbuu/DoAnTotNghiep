@@ -30,7 +30,7 @@ header {
     z-index: 10;
     width: 100%;
     padding: 20px 10px;
-    background-color: #1bb930;
+    background-color: #1ab188;
     border-bottom: 2px solid #fff;
 }
 
@@ -45,7 +45,7 @@ header h2 {
 .sidebar {
     float: left;
     width: 170px;
-    background-color: #1bb930;
+    background-color: #1ab180;
     height: 600px;
 }
 
@@ -75,13 +75,13 @@ header h2 {
 
 .sidebar .nav-link.active,
 .sidebar .nav-link.active i {
-    background-color: #077907;
+    background-color: #50b99d;
     color: #fff;
 }
 
 .sidebar .nav-link:hover:not(.active),
 .sidebar .nav-link:hover:not(.active) i {
-    background-color: #077906;
+    background-color: #50b99d;
     color: #fff;
 }
 
@@ -162,8 +162,8 @@ header h2 {
 }
 
 .table-header th {
-    color: #e4e7ea;
-    background-color: #3e464d;
+    color: #000;
+    background-color: rgb(223, 223, 223);
     border-color: #23282c;
 }
 
@@ -199,18 +199,18 @@ header h2 {
 }
 
 .table-content tr:nth-of-type(even) {
-    background-color: #3e4144;
+    background-color: #fff;
 }
 
 .table-content td {
     position: relative;
-    color: #e4e7ea;
+    color: #000;
 }
 
 /* Link chi tiet san pham */
 .table-content td a {
     display: block;
-    color: #e4e7ea;
+    color: #000;
 }
 
 .table-content td a:hover {

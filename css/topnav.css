@@ -1,7 +1,7 @@
 /* Top Navigation */
 	.top-nav {
 		display: inline-block;
-		background: #0da114de;
+		background: #1ab188;
 		width: 100%;
 		border-bottom: 1px #e1e1e1 solid;
 	}
@@ -20,7 +20,7 @@
 			width: 2em;
 			line-height: 2em;
 			color:#fff;
-			background-color: #0da114de;
+			background-color: #1ab188;
 			transition-duration: .2s;
 		}
 		
